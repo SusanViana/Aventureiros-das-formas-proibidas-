@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setor Circular</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+<body>
+
+    <header>
+
+        <img src="assets/img/logo.png" alt="">
+  
+      </header>
+
+      <div class="container">
+
+        <p>
+            Setor Circular:
+
+            Imagine que você está dividindo um bolo em uma fatia. Para encontrar a área do setor : A = (θ/2) * r^2.
+            Insira os valores a baixo para obter a area totaldo seu bolo fatiado.
+            
+
+        </p>
+
+        <br>
+        <br>
+        <br>
+        
+        <label for="raio">Raio</label>
+        <input type="number" id="raio" placeholder="Valor do raio">
+
+        <label for="angulo">Ângulo (em graus)</label>
+        <input type="number" id="angulo" placeholder="Valor do ângulo em graus">
+
+        <button onclick="setor_circular()">Calcular</button>
+
+        <h4>
+
+        O resultado é
+
+        <span id="resultado"></span>
+
+        </h4>
+
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+    
+</body>
+</html>

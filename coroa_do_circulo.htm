@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coroa do Circulo</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+<body>
+    
+    <header>
+
+        <img src="assets/img/logo.png" alt="">
+  
+      </header>
+
+      <div class="container">
+
+        <p>Coroa do Circulo
+            
+            Imagine um anel brilhante. Para encontrar sua área,use as fórmulas A =  A = (π * R²) – (π * r²).
+            Insira os valores a baixo para obter a area total.
+
+        </p>
+
+        <br>
+        <br>
+        <br>
+        
+        <label for="raio_externo">Raio externo</label>
+        <input type="number" id="raio_externo" placeholder="Valor do raio externo">
+
+        <label for="raio_interno">Raio interno</label>
+        <input type="number" id="raio_interno" placeholder="Valor do raio interno">
+
+        <button onclick="coroa_do_circulo()">Calcular</button>
+
+        <h4>O resultado é <span id="resultado"></span></h4>
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

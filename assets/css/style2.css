@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:boder-box;
+}
+
+header{
+
+    background-color: #f5ae94;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+   
+}
+
+header img{
+
+    width: 600px;
+}
+
+body{
+    background-color:#f5ae94;
+}
+
+div {
+    display:flex;
+    align-items: center;
+    display: block;
+    width: 550px;
+    height: 200px;
+    background-color: rgb(249, 249, 249);
+    border: solid 2px black;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    
+}
+button{
+    
+    width: 90px;
+    
+}
+
+input{
+
+width: 150px;
+height: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+

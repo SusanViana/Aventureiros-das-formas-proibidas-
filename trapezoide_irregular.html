@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trapezoide</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+<body>
+
+    <header>
+
+        <img src="assets/img/logo.png" alt="">
+  
+      </header>
+
+      <div class="container">
+
+        <p>Trapézio Irregular:
+
+            Pense em montanhas e vales. A formula : A = (b1 + b2) * h / 2.
+            Insira os valores a baixo para obter a area total do seu trapezio.
+            
+
+        </p>
+
+        <br>
+        <br>
+        <br>
+        
+        <label for="apotema_maior">Apótema da Base Maior</label>
+        <input type="number" id="apotema_maior" placeholder="Apótema da Base Maior">
+
+        <label for="apotema_menor">Apótema da Base Menor</label>
+        <input type="number" id="apotema_menor" placeholder="Apótema da Base Menor">
+
+        <label for="altura">Altura</label>
+        <input type="number" id="altura" placeholder="Altura">
+
+        <button onclick="tronco_da_piramide()">Calcular</button>
+
+        <h4>
+
+        O resultado é
+
+        <span id="resultado"></span>
+
+        </h4>
+
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+    
+</body>
+</html>

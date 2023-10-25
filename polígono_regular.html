@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polígono</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+<body>
+    
+    <header>
+
+        <img src="assets/img/logo.png" alt="">
+  
+      </header>
+
+      <div class="container">
+
+        <p>
+
+            Polígono Regular:
+
+            Polígonos regulares são como os escudos dos cavaleiros. Descubra o número de lados, o comprimento de um lado e a apótema (distância do centro a um lado).A fórmula mágica: A = (n * s * a) / 2.
+            Insira os valores a baixo para obter a area toral do seu escudo.
+
+        </p>
+
+        <br>
+        <br>
+        <br>
+        
+        <label for="vertices">Coordenadas dos Vértices (formato: x1,y1 x2,y2 x3,y3 ...):</label>
+
+        <input type="text" id="vertices" placeholder="Insira as coordenadas dos vértices">
+
+        <button onclick="Poligono_regular()">Calcular Área</button>
+
+        <h4>
+
+        O resultado é
+
+        <span id="resultado"></span>
+
+        </h4>
+
+    </div>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
